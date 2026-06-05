@@ -1,6 +1,6 @@
 cask "cloud-app" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "6cba29f05291b4b6f5ef9d088554bdd5fae4ec1c9acf879a6fdaf55e694739a9"
 
   url "https://github.com/benjidotsh/cloud.app/releases/download/v#{version}/Cloud-#{version}.dmg"
   name "Cloud.app"
