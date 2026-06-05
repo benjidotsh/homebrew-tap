@@ -13,13 +13,13 @@ cask "cloud-app" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Cloud.app"
 
   zap trash: [
-    "~/Library/Preferences/sh.benji.CloudApp.plist",
     "~/Library/Application Support/sh.benji.CloudApp",
     "~/Library/Caches/sh.benji.CloudApp",
+    "~/Library/Preferences/sh.benji.CloudApp.plist",
   ]
 end
