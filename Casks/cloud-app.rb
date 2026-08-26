@@ -1,6 +1,6 @@
 cask "cloud-app" do
-  version "0.1.3"
-  sha256 "c1c80a14f4343720a8c5aef8750b51c68a8435c278ff4f81b6c6acb211b98042"
+  version "0.1.4"
+  sha256 "192b0e45caaf7046da291e105ebdf0f02c0d32c1e7e67d6d6659bd3f0de77412"
 
   url "https://dl.trycloud.app/CloudApp-#{version}.dmg",
       verified: "dl.trycloud.app/"
